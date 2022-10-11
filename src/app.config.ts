@@ -39,14 +39,14 @@ export const CROSS_DOMAIN = {
 }
 
 export const MONGO_DB = {
-  uri: argv.db_uri || `mongodb://127.0.0.1:27017/NodePress`,
+  uri: argv.db_uri || `mongodb://admin:a8106188@47.52.173.72:27017/nodepress`,
 }
 
 export const REDIS = {
-  host: argv.redis_host || 'localhost',
+  host: argv.redis_host || '47.52.173.72',
   port: argv.redis_port || 6379,
   username: argv.redis_username || null,
-  password: argv.redis_password || null,
+  password: argv.redis_password || "P@ssw0rd",
 }
 
 export const AUTH = {
